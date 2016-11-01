@@ -24,9 +24,9 @@ Given the generic function of the new RTView Splunk connector, it is easy to for
 
 ##Splunk Configuration
 1. Create a new index for data sent by RTView dataservers.
-a) In your browser, navigate to "Settings > Indexes".
-b) Click "New Index".
-c) Enter "rtviewdata" for the "Index Name", select "RTView Monitor for TIBCO BusinessWorks" for the "App", and click "Save".
+* In your browser, navigate to "Settings > Indexes".
+* Click "New Index".
+* Enter "rtviewdata" for the "Index Name", select "RTView Monitor for TIBCO BusinessWorks" for the "App", and click "Save".
 
 2. Enable the "HTTP EventCollector".
 a) In your browser, navigate to "Settings > Data Inputs".
