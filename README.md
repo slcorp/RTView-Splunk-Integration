@@ -1,5 +1,5 @@
 # RTView-Splunk-Integration
-Splunk RTView Monitor for Tibco BusinessWorks
+Splunk RTView Monitor for TIBCO BusinessWorks
 
 ## Introduction
 In version 6.3, Splunk added the HTTP Event Collector (HEC), "a new, robust, token-based JSON API for sending events to Splunk from 
