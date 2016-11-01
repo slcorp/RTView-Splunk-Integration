@@ -17,17 +17,16 @@ Given the generic function of the new RTView Splunk connector, it is easy to for
 * RTView dataserver configured to collect Tibco BusinessWorks metrics 
 
 ##Installation
-Download and install the RTView BW Monitor App. 
-1. In your browser, login to Splunk as an administrator and navigate to Apps > Manage Apps".
-2. Click "Install app from file". 
-3. Browse to and select downloaded app file, then click "Upload".
+1. Download and install Splunk Enterprise.  
+2. In your browser, login to Splunk as an administrator and navigate to Apps > Manage Apps".
+3. Click "Install app from file". Select the .spl file that you copied from the 'samples' folder in this repository.
+4. Browse to and select downloaded app file, then click "Upload".
 
 ##Splunk Configuration
 1. Create a new index for data sent by RTView dataservers.
 a) In your browser, navigate to "Settings > Indexes".
 b) Click "New Index".
-c) Enter "rtviewdata" for the "Index Name", select "RTView Monitor for Tibco
-      BusinessWorks" for the "App", and click "Save".
+c) Enter "rtviewdata" for the "Index Name", select "RTView Monitor for TIBCO BusinessWorks" for the "App", and click "Save".
 
 2. Enable the "HTTP EventCollector".
 a) In your browser, navigate to "Settings > Data Inputs".
