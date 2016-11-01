@@ -1,7 +1,7 @@
 # RTView-Splunk-Integration
 Splunk RTView Monitor for TIBCO BusinessWorks
 
-## Introduction
+## Background
 In version 6.3, Splunk added the HTTP Event Collector (HEC), "a new, robust, token-based JSON API for sending events to Splunk from 
 anywhere without requiring a forwarder. It is designed for performance and scale. Using a load balancer in front, it can be
 deployed to handle millions of events per second. It is highlyavailable and it is secure. It is easy to configure, easy to use,
@@ -52,6 +52,10 @@ Configure your RTView Dataserver to forward data to Splunk.
 1. Login to Splunk. Select app > RTView Monitor for Tibco BusinessWorks'. View the displays e.g. BW Servers, BWEngines, BWProcesses tabs. (see screenshots.zip for samples).
 
 2. As the dataserver sends data to Splunk, the various displays in the app will begin to populate.
+
+## Resources
+Download RTView: http://sl.com/evaluation-request/
+Download Splunk: https://www.splunk.com/en_us/download/splunk-enterprise-2.html
 
 ### Adding New Certificate to your Java Store
 1. If the store already contains an older Splunk certificate, then 
