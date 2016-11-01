@@ -24,18 +24,18 @@ Given the generic function of the new RTView Splunk connector, it is easy to for
 
 ##Splunk Configuration
 1. Create a new index for data sent by RTView dataservers.
-* In your browser, navigate to "Settings > Indexes".
-* Click "New Index".
-* Enter "rtviewdata" for the "Index Name", select "RTView Monitor for TIBCO BusinessWorks" for the "App", and click "Save".
+(a) In your browser, navigate to "Settings > Indexes"
+(b) Click "New Index"
+(c) Enter "rtviewdata" for the "Index Name", select "RTView Monitor for TIBCO BusinessWorks" for the "App", and click "Save".
 
 2. Enable the "HTTP EventCollector".
-a) In your browser, navigate to "Settings > Data Inputs".
-b) Click "HTTP Event Collector > New Token". 
-c) Enter "rtviewstream" for the token "Name", and click "Next".
-d) Click on "rtviewdata" in "Select Allowed Indexes" and click "Review".
-e) Click "Submit".
-f) Copy the token for use in "RTView Configuration". (Example: It will be a string similar to the following: 39B11BA2-589C-4BD4-9542-BEA103A31A2C)
-g) Click "Global Settings". Click "Enabled" for "All Tokens" and "Save". (i.e. Settings > Data Inputs > HTTP Event Collector > Global Settings)
+(a) In your browser, navigate to "Settings > Data Inputs".
+(b) Click "HTTP Event Collector > New Token". 
+(c) Enter "rtviewstream" for the token "Name", and click "Next".
+(d) Click on "rtviewdata" in "Select Allowed Indexes" and click "Review".
+(e) Click "Submit".
+(f) Copy the token for use in "RTView Configuration". (Example: It will be a string similar to the following: 39B11BA2-589C-4BD4-9542-BEA103A31A2C)
+(g) Click "Global Settings". Click "Enabled" for "All Tokens" and "Save". (i.e. Settings > Data Inputs > HTTP Event Collector > Global Settings)
 
 ##RTView Configuration
 Configure your RTView Dataserver to forward data to Splunk.
