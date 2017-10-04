@@ -12,17 +12,17 @@ to forward this data to Splunk via the HEC. For demonstration purposes, this exa
 
 Given the generic function of the new RTView Splunk connector, it is easy to forward any data collected by RTView to Splunk, opening the doorfor a plethora of opportunities for analysis of data not previously available to Splunk.
 
-##Pre-requisites
+## Pre-requisites
 * Splunk 6.3 or later
 * RTView dataserver configured to collect Tibco BusinessWorks metrics 
 
-##Installation
+## Installation
 1. Download and install Splunk Enterprise.  
 2. In your browser, login to Splunk as an administrator and navigate to Apps > Manage Apps".
 3. Click "Install app from file". Select the .spl file that you copied from the 'samples' folder in this repository.
 4. Browse to and select downloaded app file, then click "Upload".
 
-##Splunk Configuration
+## Splunk Configuration
 1. Create a new index for data sent by RTView dataservers.
 (a) In your browser, navigate to "Settings > Indexes"
 (b) Click "New Index"
